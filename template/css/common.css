@@ -57,6 +57,10 @@ a {
     background-color: #ffffff;
 }
 
+.skin-black .main-header .navbar {
+    background-color: #222d32;
+}
+
 .main-header .navbar {
     -webkit-transition: margin-left .3s ease-in-out;
     -o-transition: margin-left .3s ease-in-out;
