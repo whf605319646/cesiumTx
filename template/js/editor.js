@@ -169,6 +169,8 @@ function bindEvents() {
         if (expand) {
             //编辑器和预览宽度5:7
             $(this).text(" 展开");
+            // fix 展开/源码按钮遮挡其它控件样式
+            $(this).css("left", "42%");
             $(this).addClass("fa-arrows-alt");
             $(this).removeClass(" fa-compress");
             codePane.show(10, function () {
@@ -179,6 +181,7 @@ function bindEvents() {
         } else {
             //预览独占一行
             $(this).text(" 源码");
+            $(this).css("left", 0);
             $(this).addClass(" fa-compress");
             $(this).removeClass("fa-arrows-alt");
             codePane.hide(200, function () {

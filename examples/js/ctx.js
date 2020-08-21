@@ -19,8 +19,8 @@
         document.writeln(script);
     }
 
-    console.info("GITHUB地址 https://github.com/lyqh-ctx/cesiumTx.git");
-    console.info("在线部署地址 http://www.zgeo.work/cesiumTx/");
+    // console.info("GITHUB地址 https://github.com/lyqh-ctx/cesiumTx.git");
+    // console.info("在线部署地址 http://www.zgeo.work/cesiumTx/");
     function addCSS(url) {
         var css = '<link rel="stylesheet" type="text/css" href="' + url + '">';
         document.writeln(css);
